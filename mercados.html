@@ -4,17 +4,23 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Mercados Financieros</title>
 </head>
 <body>
     <header>
         <div>
-            <img src="img/logo.png" width="200" alt="logo">
+            <table>
+                <tr>
+                    <td><img src="img/logo.png" width="200" alt="logo"></td>                                                                                                            
+                    <td><h1>Ciudad Gotica News</h1></td>
+                    <td>
+                        <h2>Últimas noticias del día</h2>
+                        <h3>Mantente informado con las noticias más recientes y relevantes de todo el mundo. Actualizaciones sobre política, tecnología, economía, deportes, entretenimiento y mucho más. ¡No te pierdas nada!</h3>
+                    </td>
+                </tr>                                                                                                                                                           
+            </table>
         </div>
-        <nav><!--duda con el nav , ya que primero la tarea menciona una barra horizontal de navegacion y luego que este ordenaa como lista <Ul> -->
-            <a href="index.html">Inicio</a> | <a href="nacionales.html">Noticias Nacionales</a> | <a href="mercados.html">Mercados Financieros</a> | <a href="entretenimiento.html">Entretenimiento</a>
-        </nav>
-        <!-- Tambien agregue el otro nav , luego hay que decidir cual dejar-->
+        <!-- nav horizontal con ul que sin css se vera vertical-->
         <nav>
             <ul>
                 <li><a href="index.html">Inicio</a></li>
@@ -28,53 +34,66 @@
             <ul>
                 <li><a href="entretenimiento.html">Entretenimiento</a></li>
             </ul>
+            <ul>
+                <li><a href="politica.html">Política</a></li>
+            </ul>
+            <ul>
+                <li><a href="economia.html">Economía</a></li>
+            </ul>
         </nav>
-        <h1>Titulo</h1>
-        <h2>Subtitulo</h2>
+        <!--<h1>Titulo</h1>
+        <h2>Subtitulo</h2> -->
     </header>
     <main>
-        <section>
-            <table border="1">
+        <div>
+            <article>
+                <h2>Mercados Financieros</h2>
+                <h3>La volatilidad del mercado financiero global genera incertidumbre en los inversores.</h3>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quasi officiis natus rerum minus eveniet repudiandae esse expedita fugiat aperiam. Deserunt tenetur aut nesciunt in reprehenderit rem dolorem, eaque provident? Culpa!</p>
+            </article>
+        </div>
+        <div>
+            <table border="1"><!--Se ve en el validador como error por estar obsoleto, y no tenemos permitido ocupar CSS-->
                 <tr>
                     <td colspan="2">
-                        <p>dsfdsfsdfdsfsdfsdf</p>
+                        <p><strong>Dolar / Peso Chileno</strong></p>
                     </td>
                 </tr>
                 <tr>
                     <td>
-                        <p>dsfdsfsdfdsfsdfsdf</p>
+                        <p>$ 1 USD</p>
                     </td>
                     <td>
-                        <p>dsfdsfsdfdsfsdfsdf</p>
+                        <p>$ 829 CLP</p>
                     </td>
                 </tr>
             </table>
-        </section>
+        </div>
         <br>
-        <section>
-            <table border="1">
+        <div>
+            <table border="1"><!--Se ve en el validador como error por estar obsoleto, y no tenemos permitido ocupar CSS-->
                 <tr>
                     <td>
-                        <p>dsfdsfsdfdsfsdfsdf</p>
+                        <p><strong>1. Estados Unidos:</strong> 25,3 billones de dólares.</p>
                     </td>
                     <td rowspan="2">
-                        <p>dsfdsfsdfdsfsdfsdf</p>
+                        <p><strong>Países más ricos del mundo según PIB</strong></p>
                     </td>
                 </tr>
                 <tr>
                     <td>
-                        <p>dsfdsfsdfdsfsdfsdf</p>
+                        <p><strong>2. China:</strong>19,9 billones de dólares.</p>
                     </td>
                 </tr>
             </table>
-        </section>
+        </div>
     </main>
     <footer>
         <hr>
-        <p>
-            <div>Copy</div>
-            <a href="terminosycondiciones.html">Terminos y condiciones</a><a href="politicasdeprivacidad.html">Politicas de Privacidad</a><a href=""></a>
-        </p>
+        
+            <div>Copyright &copy;</div>
+            <div><a href="terminosycondiciones.html">Terminos y condiciones</a> <a href="politicasdeprivacidad.html">Politicas de Privacidad</a><a href=""></a></div>
+        
     </footer>
 </body>
 </html>
